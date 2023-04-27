@@ -20,9 +20,9 @@ comum na web. Na maioria das vezes, eles se alinham com as funções ARIA padrã
 Cada padrão define uma interface como uma união de comportamentos e um mixin que aplica tudo isso
 comportamentos em uma classe existente.
 
-### Framework agnostic
-The code here aims provide "behavioral primitives" that can be used in any framework or with
-no framework at all.
+### Estrutura agnóstica
+O código aqui visa fornecer "primitivas comportamentais" que podem ser usadas em qualquer framework ou com
+nenhum quadro em tudo.
 
 ### Behaviors and patterns don't know about the DOM
 Different frameworks have their own systems for performing DOM manipulation, so we defer
