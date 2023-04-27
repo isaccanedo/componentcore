@@ -14,8 +14,8 @@ in a `class` and augments it with some additional functionality.
 Comportamentos se compõem em padrões.
 
 ## Padrões
-A pattern is a union of behaviors that corresponds to one of the canonnical "interaction pattern"
-common to the web. For the most part, these align with the standard ARIA roles.
+Um padrão é uma união de comportamentos que corresponde a um dos "padrões de interação" canônicos
+comum na web. Na maioria das vezes, eles se alinham com as funções ARIA padrão.
 
 Each pattern defines an interface as a union of behaviors and a mixin that applies all of said
 behaviors onto an existing class.
