@@ -17,8 +17,8 @@ Comportamentos se compõem em padrões.
 Um padrão é uma união de comportamentos que corresponde a um dos "padrões de interação" canônicos
 comum na web. Na maioria das vezes, eles se alinham com as funções ARIA padrão.
 
-Each pattern defines an interface as a union of behaviors and a mixin that applies all of said
-behaviors onto an existing class.
+Cada padrão define uma interface como uma união de comportamentos e um mixin que aplica tudo isso
+comportamentos em uma classe existente.
 
 ### Framework agnostic
 The code here aims provide "behavioral primitives" that can be used in any framework or with
