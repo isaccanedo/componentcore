@@ -28,7 +28,7 @@ nenhum quadro em tudo.
 Diferentes frameworks têm seus próprios sistemas para executar a manipulação de DOM, portanto, adiamos
 toda a renderização no nível do framework.
 
-### Container elements know about their children and not the other way around
+### Os elementos do contêiner sabem sobre seus filhos e não o contrário
 * All behaviors live at the _container_ level, while child items are simple state containers.
   * The container *must* know about the children because of patterns like `aria-activedescendant`
   * Having the child items _also_ know about the parent would introduce a circular data flow that
