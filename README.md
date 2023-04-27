@@ -29,7 +29,7 @@ Diferentes frameworks têm seus próprios sistemas para executar a manipulação
 toda a renderização no nível do framework.
 
 ### Os elementos do contêiner sabem sobre seus filhos e não o contrário
-* All behaviors live at the _container_ level, while child items are simple state containers.
+* Todos os comportamentos residem no nível _container_, enquanto os itens filhos são contêineres de estado simples.
   * The container *must* know about the children because of patterns like `aria-activedescendant`
   * Having the child items _also_ know about the parent would introduce a circular data flow that
     would make the patterns more difficult to reason about.
