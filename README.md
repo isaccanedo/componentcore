@@ -11,7 +11,7 @@ cumulativo. Por exemplo, um componente que "tem um item ativo" deve inerentement
 Behaviors can be added to an existing class via mixin, which here is a function that takes
 in a `class` and augments it with some additional functionality.
 
-Behaviors compose into patterns.
+Comportamentos se compõem em padrões.
 
 ## Patterns
 A pattern is a union of behaviors that corresponds to one of the canonnical "interaction pattern"
