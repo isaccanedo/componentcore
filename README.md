@@ -4,8 +4,8 @@ Protótipo de base de componentes de baixo nível com base na composição de co
 ## Notas de implementação
 
 ## Comportamentos
-A behavior is an atomic bit of functionality that can apply to a component, such as
-"can be disabled" or "has items". Each behavior is defined as an interface. Behaviors can be
+Um comportamento é uma parte atômica de funcionalidade que pode ser aplicada a um componente, como
+"pode ser desativado" ou "tem itens". Cada comportamento é definido como uma interface. Behaviors can be
 cumulative. For example, a component that "has an active item" must inherent "have items".
 
 Behaviors can be added to an existing class via mixin, which here is a function that takes
