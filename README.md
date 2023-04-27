@@ -13,7 +13,7 @@ in a `class` and augments it with some additional functionality.
 
 Comportamentos se compõem em padrões.
 
-## Patterns
+## Padrões
 A pattern is a union of behaviors that corresponds to one of the canonnical "interaction pattern"
 common to the web. For the most part, these align with the standard ARIA roles.
 
