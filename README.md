@@ -1,5 +1,5 @@
 # componentcore
-Prototype low-level component foundation based on composing behaviors into interaction patterns
+Protótipo de base de componentes de baixo nível com base na composição de comportamentos em padrões de interação
 
 ## Implementation notes
 
