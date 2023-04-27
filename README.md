@@ -5,8 +5,8 @@ Protótipo de base de componentes de baixo nível com base na composição de co
 
 ## Comportamentos
 Um comportamento é uma parte atômica de funcionalidade que pode ser aplicada a um componente, como
-"pode ser desativado" ou "tem itens". Cada comportamento é definido como uma interface. Behaviors can be
-cumulative. For example, a component that "has an active item" must inherent "have items".
+"pode ser desativado" ou "tem itens". Cada comportamento é definido como uma interface. Os comportamentos podem ser
+cumulativo. Por exemplo, um componente que "tem um item ativo" deve inerentemente "ter itens".
 
 Behaviors can be added to an existing class via mixin, which here is a function that takes
 in a `class` and augments it with some additional functionality.
