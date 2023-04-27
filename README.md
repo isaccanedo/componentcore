@@ -24,9 +24,9 @@ comportamentos em uma classe existente.
 O código aqui visa fornecer "primitivas comportamentais" que podem ser usadas em qualquer framework ou com
 nenhum quadro em tudo.
 
-### Behaviors and patterns don't know about the DOM
-Different frameworks have their own systems for performing DOM manipulation, so we defer
-all rendering to the framework level.
+### Comportamentos e padrões não conhecem o DOM
+Diferentes frameworks têm seus próprios sistemas para executar a manipulação de DOM, portanto, adiamos
+toda a renderização no nível do framework.
 
 ### Container elements know about their children and not the other way around
 * All behaviors live at the _container_ level, while child items are simple state containers.
