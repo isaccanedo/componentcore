@@ -39,7 +39,7 @@ toda a renderização no nível do framework.
   * Isso também implica que o contêiner, que se preocupa com a ordem, deve ter alguma maneira de
      consulta para seus itens filhos ou que os itens filhos devem ser transmitidos quando são adicionados/removidos/movidos
      e que eles devem estar cientes de seu próprio índice.
-  * Example: A `listbox` knows about its options, but the each option knows nothing of its listbox.
+  *Exemplo: Um `listbox` conhece suas opções, mas cada opção não conhece nada de seu listbox.
 * From an API perspective, end-developers *want* to interact with the container for things that
   deal with the child items. For example, reading the selected value from a `listbox`, even though
   the selection state lives on the `option`.
