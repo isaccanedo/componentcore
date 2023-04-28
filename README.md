@@ -44,7 +44,7 @@ toda a renderização no nível do framework.
    lidar com os itens filhos. Por exemplo, lendo o valor selecionado de um `listbox`, mesmo que
    o estado de seleção reside na `opção`.
 
-### The pattern class state is the source of truth
+### O estado da classe padrão é a fonte da verdade
 * The DOM acts as the _output_ of the state rather than as the source of truth, which aligns with
 most frameworks.
 * For custom elements, the pattern class _is_ the custom `Element`.
