@@ -33,9 +33,9 @@ toda a renderização no nível do framework.
   * O contêiner *deve* saber sobre os filhos por causa de padrões como `aria-activedescendant`
   * Ter os itens filho _também_ sabendo sobre o pai introduziria um fluxo de dados circular que
      tornaria os padrões mais difíceis de raciocinar.
-  * This implies that either event listeners must live at the container level, or that the container
-    must have some way of knowing when the child state changes via some implementation of the
-    Observer pattern.
+  * Isso implica que os ouvintes de eventos devem residir no nível do contêiner ou que o contêiner
+     deve ter alguma maneira de saber quando o estado filho muda por meio de alguma implementação do
+     Padrão de observador.
   * This also implies that the container, which cares about order, must either have some way to
     query for its child items or that child items must broadcast when they are added/remove/moved
     and that they must be aware of their own index.
