@@ -40,9 +40,9 @@ toda a renderização no nível do framework.
      consulta para seus itens filhos ou que os itens filhos devem ser transmitidos quando são adicionados/removidos/movidos
      e que eles devem estar cientes de seu próprio índice.
   *Exemplo: Um `listbox` conhece suas opções, mas cada opção não conhece nada de seu listbox.
-* From an API perspective, end-developers *want* to interact with the container for things that
-  deal with the child items. For example, reading the selected value from a `listbox`, even though
-  the selection state lives on the `option`.
+* Do ponto de vista da API, os desenvolvedores finais *querem* interagir com o contêiner para coisas que
+   lidar com os itens filhos. Por exemplo, lendo o valor selecionado de um `listbox`, mesmo que
+   o estado de seleção reside na `opção`.
 
 ### The pattern class state is the source of truth
 * The DOM acts as the _output_ of the state rather than as the source of truth, which aligns with
