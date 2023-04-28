@@ -36,9 +36,9 @@ toda a renderização no nível do framework.
   * Isso implica que os ouvintes de eventos devem residir no nível do contêiner ou que o contêiner
      deve ter alguma maneira de saber quando o estado filho muda por meio de alguma implementação do
      Padrão de observador.
-  * This also implies that the container, which cares about order, must either have some way to
-    query for its child items or that child items must broadcast when they are added/remove/moved
-    and that they must be aware of their own index.
+  * Isso também implica que o contêiner, que se preocupa com a ordem, deve ter alguma maneira de
+     consulta para seus itens filhos ou que os itens filhos devem ser transmitidos quando são adicionados/removidos/movidos
+     e que eles devem estar cientes de seu próprio índice.
   * Example: A `listbox` knows about its options, but the each option knows nothing of its listbox.
 * From an API perspective, end-developers *want* to interact with the container for things that
   deal with the child items. For example, reading the selected value from a `listbox`, even though
