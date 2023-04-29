@@ -45,9 +45,9 @@ toda a renderização no nível do framework.
    o estado de seleção reside na `opção`.
 
 ### O estado da classe padrão é a fonte da verdade
-* The DOM acts as the _output_ of the state rather than as the source of truth, which aligns with
-most frameworks.
-* For custom elements, the pattern class _is_ the custom `Element`.
+* O DOM atua como a _saída_ do estado, e não como a fonte da verdade, que se alinha com
+maioria dos quadros.
+* Para elementos personalizados, a classe padrão _é_ o `Elemento` personalizado.
 
 
 ## Interaction patterns targeted
