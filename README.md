@@ -50,7 +50,7 @@ maioria dos quadros.
 * Para elementos personalizados, a classe padrão _é_ o `Elemento` personalizado.
 
 
-## Interaction patterns targeted
+## Padrões de interação direcionados
 * listbox
 * option
 * combobox
