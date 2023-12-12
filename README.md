@@ -66,7 +66,7 @@ maioria dos quadros.
 * tabpanel
 * radio-group
 
-## Patterns that don't map exactly to an ARIA role
+## Padrões que não são mapeados exatamente para uma função ARIA
 * Expansion panel
 * Accordion
 * Datepicker
