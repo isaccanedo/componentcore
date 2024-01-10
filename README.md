@@ -1,8 +1,6 @@
 # componentcore
 Protótipo de base de componentes de baixo nível com base na composição de comportamentos em padrões de interação
 
-## Notas de implementação
-
 ## Comportamentos
 Um comportamento é uma parte atômica de funcionalidade que pode ser aplicada a um componente, como
 "pode ser desativado" ou "tem itens". Cada comportamento é definido como uma interface. Os comportamentos podem ser
