@@ -45,7 +45,7 @@ toda a renderização no nível do framework.
 ### O estado da classe padrão é a fonte da verdade
 * O DOM atua como a _saída_ do estado, e não como a fonte da verdade, que se alinha com
 maioria dos quadros.
-* Para elementos personalizados, a classe padrão _é_ o `Elemento` personalizado.
+* Para elementos personalizados, a classe padrão _é_ o `Elemento` personalizado...
 
 
 ## Padrões de interação direcionados
